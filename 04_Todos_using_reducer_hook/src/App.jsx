@@ -16,6 +16,7 @@ function reducer(todos,action){
         return todos.map((todo) =>{
           if(todo.id === action.payload.id){
             return {...todo,complete: !todo.complete}
+            
           }
           return todo
         })
