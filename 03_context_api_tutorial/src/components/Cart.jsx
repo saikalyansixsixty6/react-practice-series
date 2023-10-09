@@ -20,6 +20,7 @@ const Cart = () => {
           <SingleProduct prod={prod} key={prod.id} />
         ))}
       </div>
+      <div className="white">{cart.length}</div>
     </div>
   );
 };
